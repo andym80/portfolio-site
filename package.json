@@ -1,0 +1,29 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andym80/portfolio-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andym80/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/andym80/portfolio-site#readme",
+  "devDependencies": {
+    "hint": "^6.1.12",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {
+    "eslint": "^8.14.0"
+  }
+}
