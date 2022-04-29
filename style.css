@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
 }
 
 .navbar {
@@ -362,6 +362,8 @@ h4 {
 }
 
 .form {
+  display: flex;
+  flex-direction: column;
   width: 320px;
   height: 813px;
   background: #f9f9fa;
@@ -369,21 +371,20 @@ h4 {
 }
 
 .form-box {
-  display: flex;
   align-items: flex-start;
   background-image: url("images/image_geometry_1.png");
   background-repeat: no-repeat;
   width: 111px;
   height: 74px;
+  margin-bottom: 32px;
 }
 
 h5 {
-  display: flex;
   width: 249px;
   height: 50px;
   margin-left: 18px;
   margin-bottom: 20px;
-  margin-top: 106px;
+  margin-top: 32px;
   font-size: 50px;
   font-weight: 400px;
   line-height: 50px;
@@ -394,6 +395,7 @@ h5 {
 }
 
 .form-intro {
+  flex-grow: 1;
   width: 288px;
   height: 63px;
   font-style: normal;
@@ -409,8 +411,6 @@ h5 {
 }
 
 .form-name-box {
-  display: flex;
-  flex-direction: column;
   align-content: flex-start;
   width: 288px;
   height: 52px;
@@ -536,9 +536,9 @@ li.fill-messagge {
 
 .resume-box {
   width: 320px;
-  height: 150px;
+  height: 102px;
   background: #1a2236;
-  margin-top: 64px;
+  margin-top: 0;
 }
 
 .resume {
@@ -548,6 +548,9 @@ li.fill-messagge {
 
 .social-media-icons {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-evenly;
   list-style-type: none;
+  background: #1a2236;
+  padding-bottom: 17px;
 }
