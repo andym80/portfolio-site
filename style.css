@@ -54,7 +54,6 @@ header {
   line-height: 50px;
   color: #1a2236;
   stroke: black 1px;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   text-align: left;
 }
 
@@ -141,7 +140,6 @@ h2 {
   line-height: 50px;
   color: #1a2236;
   stroke: black 1px;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   text-align: left;
 }
 
@@ -158,7 +156,6 @@ h3 {
   width: 320px;
   height: 156px;
   background-color: #1a2236;
-  border: 0.333333px solid rgba(255, 255, 255, 0.1);
 }
 
 .project-name {
@@ -207,7 +204,6 @@ h4 {
   line-height: 50px;
   color: #1a2236;
   stroke: black 1px;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   text-align: left;
 }
 
@@ -390,7 +386,6 @@ h5 {
   line-height: 50px;
   color: #1a2236;
   stroke: black 1px;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   text-align: left;
 }
 
@@ -553,4 +548,7 @@ li.fill-messagge {
   list-style-type: none;
   background: #1a2236;
   padding-bottom: 17px;
+  width: 320px;
 }
+
+/* stylelint-disable-next-line no-missing-end-of-source-newline */

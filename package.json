@@ -1,5 +1,5 @@
 {
-  "name": "my-portfolio",
+  "name": "my-portfolio.mobile-v",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,22 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andym80/portfolio-site.git"
+    "url": "git+https://github.com/andym80/my-portfolio.mobile-v.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andym80/portfolio-site/issues"
+    "url": "https://github.com/andym80/my-portfolio.mobile-v/issues"
   },
-  "homepage": "https://github.com/andym80/portfolio-site#readme",
+  "homepage": "https://github.com/andym80/my-portfolio.mobile-v#readme",
   "devDependencies": {
     "hint": "^6.1.12",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  },
-  "dependencies": {
-    "eslint": "^8.14.0"
   }
 }
