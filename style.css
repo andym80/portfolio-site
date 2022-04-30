@@ -258,63 +258,18 @@ h4 {
   height: 51px;
 }
 
-
-.my-cv-box :hover {
-  border: 1px solid #1a2236;
-  background-color: #dfdfe0;
-  color: #1a2236;
-  box-sizing: border-box;
-}
-
-.my-cv-box:active {
-  border: 2px solid #1a2236;
-  box-sizing: border-box;
-  width: 212px;
-  height: 51px;
-}
-
 .start-collab-box:active {
   border: 2px solid #1a2236;
   box-sizing: border-box;
   width: 212px;
   height: 51px;
 }
-
 
 .start-collab-box :hover {
   border: 1px solid #1a2236;
   background-color: #dfdfe0;
   color: #1a2236;
   box-sizing: border-box;
-}
-
-.start-collab-box:active {
-  border: 2px solid #1a2236;
-  box-sizing: border-box;
-  width: 212px;
-  height: 51px;
-}
-
-.start-collab-button-2:active {
-  border: 2px solid #1a2236;
-  box-sizing: border-box;
-  width: 212px;
-  height: 51px;
-}
-
-
-.start-collab-button-2 :hover {
-  border: 1px solid #1a2236;
-  background-color: #dfdfe0;
-  color: #1a2236;
-  box-sizing: border-box;
-}
-
-.start-collab-button-2:active {
-  border: 2px solid #1a2236;
-  box-sizing: border-box;
-  width: 212px;
-  height: 51px;
 }
 
 .languages-box {
@@ -609,6 +564,20 @@ li.fill-messagge {
   margin-left: 16px;
   margin-right: 16px;
   justify-content: center;
+}
+
+.start-collab-button-2:active {
+  border: 2px solid #1a2236;
+  box-sizing: border-box;
+  width: 212px;
+  height: 51px;
+}
+
+.start-collab-button-2 :hover {
+  border: 1px solid #1a2236;
+  background-color: #dfdfe0;
+  color: #1a2236;
+  box-sizing: border-box;
 }
 
 .resume-box {
