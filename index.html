@@ -208,16 +208,27 @@
     </div>
 
     <ul class="form-name-box">
-      <li class="form-name-gray">Your name</li>
-      <li class="fill-name">Anastasiia</li>
+      <li class="form-name-gray"><label for="name">Your name</label></li>
+      <li class="fill-name">
+        <input type="text" name="name" id="name" value="Anastasiia" placeholder="Your name" maxlength="30" required>
+        <input>
+      </li>
+
     </ul>
 
     <ul class="form-email-box">
-      <li class="form-email-gray">Your email</li>
-      <li class="fill-email">|</li>
+      <li class="form-email-gray"><label for="text">e-mail</label></li>
+      <li class="fill-email"><input type="text" name="e-mail" id="text" value="" placeholder="|" maxlength="30"
+          required>
+      </li>
     </ul>
+
     <ul class="message-box">
-      <li class="fill-messagge">Enter your message here...</li>
+      <li class="fill-messagge"><label for="text"></label>
+        <textarea name="name" id="form" cols="35" rows="50" maxlength="400" wrap="soft"
+          placeholder="Enter your message here..." required></textarea>
+
+      </li>
     </ul>
     <div class="start-collab-button-2">
       <button>Start collaboration</button>
