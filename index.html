@@ -207,21 +207,40 @@
       </p>
     </div>
 
-    <ul class="form-name-box">
-      <li class="form-name-gray">Your name</li>
-      <li class="fill-name">Anastasiia</li>
-    </ul>
+    <form action="https://formspree.io/f/myyobvpo" method="Post">
+      <div class="form-name-box">
+        <div class="form-name-gray"><label for="name">Your name</label></div>
+        <div class="fill-name">
+          <input type="text" name="name" id="name" value="" placeholder="" maxlength="50" required>
+        </div>
+      </div>
 
-    <ul class="form-email-box">
-      <li class="form-email-gray">Your email</li>
-      <li class="fill-email">|</li>
-    </ul>
-    <ul class="message-box">
-      <li class="fill-messagge">Enter your message here...</li>
-    </ul>
-    <div class="start-collab-button-2">
-      <button>Start collaboration</button>
-    </div>
+
+
+
+      <div class="form-email-box">
+        <div class="form-email-gray"><label for="text">E-mail</label></div>
+        <div class="fill-email"><input type="email" name="e-mail" id="text" value="" placeholder="|" maxlength="30"
+            required>
+        </div>
+      </div>
+
+      <div class="message-box">
+        <div class="fill-messagge"><label for="text"></label></div>
+        <textarea name="name" id="form" cols="36" rows="7" maxlength="500" wrap="soft"
+          placeholder="Enter your message here..." required></textarea>
+
+      </div>
+
+      <div class="start-collab-button-2">
+        <button type="submit">Start collaboration</button>
+      </div>
+    </form>
+
+
+
+
+
     <div class="resume-box">
       <button class="resume">
         Get my resume
@@ -230,15 +249,15 @@
         </span>
       </button>
     </div>
+    <ul class="social-media-icons">
+      <li><img src="./images/icon_stackoverflow.svg" alt="stack" /></li>
+      <li><img src="./images/icon_github.svg" alt="github" /></li>
+      <li><img src="./images/icon-twitter.svg" alt="twitter" /></li>
+      <li><img src="./images/icon_linkedin.svg" alt="linkedin" /></li>
+      <li><img src="./images/icon_medium.svg" alt="medium" /></li>
+      <li><img src="./images/icon_angellist.svg" alt="angellist" /></li>
+    </ul>
   </section>
-  <ul class="social-media-icons">
-    <li><img src="./images/icon_stackoverflow.svg" alt="stack" /></li>
-    <li><img src="./images/icon_github.svg" alt="github" /></li>
-    <li><img src="./images/icon-twitter.svg" alt="twitter" /></li>
-    <li><img src="./images/icon_linkedin.svg" alt="linkedin" /></li>
-    <li><img src="./images/icon_medium.svg" alt="medium" /></li>
-    <li><img src="./images/icon_angellist.svg" alt="angellist" /></li>
-  </ul>
 </body>
 
 </html>
